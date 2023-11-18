@@ -1,0 +1,80 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header{
+  color: #767cb8;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.tasks{
+  display: flex;
+  flex-direction: row;
+  margin-left: 4.5rem;
+  justify-content: space-evenly;
+} 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toDo{
+  margin-top: 0.4rem;
+  color:#767cb8;
+  padding: 1rem;
+  background-color: #ededf7;
+  width: 790px;
+  height: 400px;
+  border-radius: 2%;
+  
+}
+
+.Do{
+  background-color: #ffffff;
+  border-radius: 3%;
+  margin-top: 0.4rem;
+  padding: 4px;
+  margin-bottom: 0.7rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646ef1;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
